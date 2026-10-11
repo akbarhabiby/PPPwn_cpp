@@ -1,6 +1,6 @@
 services:
   pppwn-web:
-    build: .
+    image: pppwn-web:linux-amd64
     container_name: pppwn-web
     restart: unless-stopped
     # Host networking lets libpcap access physical interfaces on Linux.
