@@ -1,0 +1,7 @@
+.git
+.env
+.venv
+build
+payloads
+__pycache__
+*.pyc
